@@ -1,0 +1,42 @@
+.inputsinput{
+    background-color: #acacac;
+    height: 78px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inputsinputfirstinput{
+    width: 100%;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #acacac;
+    color: #56103c;
+}
+
+.inputsinputfirstinput::placeholder{
+    color: #56103c;
+}
+
+.send{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.clip{
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.sendbutton{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    color: #56103c;
+    font-weight: 600;
+}

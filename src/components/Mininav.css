@@ -1,0 +1,37 @@
+.mininavbar{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+    background-color: #56103c;
+    height: 50px;
+    padding: 10px;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.mininavbaruser{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.currentuserpp{
+    background-color: #acacac;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.mininavbarbutton{
+    background-color: #56103c;
+    color: aliceblue;
+    font-size: 14px;
+    border: 1px solid aliceblue;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+}

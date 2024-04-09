@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+.nav {
+  background-color: #acacac;
+  color: aliceblue;
+}
+
+.navbar-dark .navbar-brand {
+  color: #56103c;
+  font-family: 'Caveat', cursive;
+  font-size: 36px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.navbar-dark .navbar-brand:hover {
+  color: #56103c;
+  font-family: 'Caveat', cursive;
+  font-size: 36px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  cursor: default;
+}
+
+.button-8 {
+  background-color: #acacac;
+  border-radius: 12px;
+  border: 1px solid #56103c;
+  color: #56103c;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0;
+  outline: none;
+  padding: 4px .4em;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.button-8:hover{
+  background-color: #56103c;
+  color: #acacac;
+}

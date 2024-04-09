@@ -1,0 +1,11 @@
+.sidebar{
+    background-color: #acacac;
+    flex: 1;
+    position: relative;
+    overflow-y: scroll;
+}
+
+.sidebar::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}

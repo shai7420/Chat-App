@@ -1,0 +1,29 @@
+.userchat{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #56103c;
+    cursor: pointer;
+}
+
+.userchat:hover{
+    background-color: #56103c;
+    color: #acacac;
+}
+
+.userchatimg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.userchatinfospan{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.userchatinfop{
+    font-size: 12px;
+}

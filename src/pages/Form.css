@@ -1,0 +1,95 @@
+.Section{
+    background-color: #56103c;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.wrapper{
+    margin-top: 96px;
+    font-family: 'Poppins', sans-serif;
+    transition: all .2s ease-in;
+}
+
+.wrapper h2{
+    color: #00f7ff;
+}
+
+.wrapper input::placeholder{
+    color: #11b2b8;
+}
+
+.registerform{
+    border: 1px solid aliceblue;
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background: transparent;
+}
+
+.icon-container {
+    text-align: center;
+    color: rgb(0, 247, 255);
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.avatarlabel{
+    font-weight: lighter;
+    padding-left: 38px;
+    padding-top: 12px;
+    font-size: 16px;
+    color: #11b2b8;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+.icon-container.left-icon {
+    left: 10px;
+    right: unset;
+}
+
+.form-group .form-control{
+    border-radius: 8px;
+    background-color: transparent;
+    color: #00f7ff;
+    border: 1px solid rgb(240, 248, 250);
+    transition: border-color 0.2s ease-in-out;
+}
+
+.form-group {
+    position: relative;
+}
+
+.form-group .form-control:focus {
+    border-color: rgb(17, 178, 184);
+}
+
+.CreateAccount{
+    color: aliceblue;
+    border-radius: 8px;
+    background-color: #11b2b8;
+}
+
+.CreateAccount:hover{
+    color: #56103c;
+}
+
+.Already{
+    font-size: 14px;
+    color: rgb(200, 202, 205);
+}
+
+.LoginBtn{
+    margin-left: 5px;
+    color: #00f7ff;
+    text-decoration: underline;
+}
+
+.LoginBtn:hover{
+    color: #acacac;
+}

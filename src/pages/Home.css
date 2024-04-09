@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+
+.home{
+    background-color: #56103c;
+    height: calc(100vh - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.homecontainer{
+    display: flex;
+    border: 1px solid #acacac;
+    border-radius: 10px;
+    width: 65%;
+    height: 80%;
+    overflow: hidden;
+}
